@@ -2,7 +2,6 @@ import React, { ReactNode } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { isAuthenticated } from "@/lib/actions/auth.actions";
-import Interceptors from "undici-types/interceptors";
 import { redirect } from "next/navigation";
 
 const RootLayout = async ({ children }: { children: ReactNode }) => {
